@@ -11,4 +11,4 @@ Type=Action
 MimeTypes=all/allfiles;
 Exec=sendviakdeconnect.py %F
 Name=Send Via KDE Connect
-Name[zh_CN]=通过Kde Connect发送到设备
+Name[zh_CN]=通过KDE Connect发送到设备
