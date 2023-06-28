@@ -1,0 +1,14 @@
+[Desktop Entry]
+Tooltip=Send Via Kde Connect
+Tooltip[zh_CN]=发送到设备
+Name=Send Via Kde Connect
+Name[zh_CN]=发送到设备
+Profiles=send_via_kdeconnect;
+Icon=emblem-shared
+Type=Action
+
+[X-Action-Profile send_via_kdeconnect]
+MimeTypes=all/allfiles;
+Exec=sendviakdeconnect.py %F
+Name=Send Via Kde Connect
+Name[zh_CN]=通过Kde Connect发送到设备
