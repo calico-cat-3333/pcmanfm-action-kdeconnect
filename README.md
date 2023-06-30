@@ -22,11 +22,12 @@ Install dependencies
 sudo apt install python3-gi
 ```
 
-Copy `sendviakdeconnect.py` to `~/.local/bin` or another directory in your `$PATH`
+Add executable premission to `sendviakedconnect.py` and copy it to `~/.local/bin` or another directory in your `$PATH`
 
-复制 `sendviakdeconnect.py` 到 `~/.local/bin` 或者在 `$PATH` 中的任何目录`
+为 `sendviakdeconnect.py` 添加可执行权限并复制到 `~/.local/bin` 或者在 `$PATH` 中的任何目录`
 
 ```
+chmod +x sendviakedconnect.py
 cp sendviakedconnect.py ~/.local/bin/
 ```
 
