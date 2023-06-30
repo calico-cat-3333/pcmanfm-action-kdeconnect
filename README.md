@@ -24,7 +24,7 @@ sudo apt install python3-gi
 
 Add executable premission to `sendviakedconnect.py` and copy it to `~/.local/bin` or another directory in your `$PATH`
 
-为 `sendviakdeconnect.py` 添加可执行权限并复制到 `~/.local/bin` 或者在 `$PATH` 中的任何目录`
+为 `sendviakdeconnect.py` 添加可执行权限并复制到 `~/.local/bin` 或者在 `$PATH` 中的任何目录
 
 ```
 chmod +x sendviakedconnect.py
