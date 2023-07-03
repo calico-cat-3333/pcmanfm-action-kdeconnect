@@ -11,7 +11,7 @@ Clone or download this repository
 克隆或下载这个储存库
 
 ```
-git clone 
+git clone https://github.com/calico-cat-3333/pcmanfm-action-kdeconnect.git
 ```
 
 Install dependencies
