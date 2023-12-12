@@ -268,7 +268,7 @@ def send(widget):
     #print('send ',filelist,' to ',selected_devicelist)
     filestr = ''
     for fileitem in filelist:
-        filestr = filestr + ' ' + fileitem
+        filestr = filestr + ' "' + fileitem + '"'
     _cmd = 'kdeconnect-cli --device '
     for device in selected_devicelist:
         cmd = _cmd + device + ' --share' + filestr
